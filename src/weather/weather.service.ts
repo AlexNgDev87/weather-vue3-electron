@@ -7,7 +7,7 @@ class WeatherService {
     }
 
     getWeather(param: string) {
-        return axios.get(`/weather?q=${param}&units=metric&&appid=fe22375bc6bd03bf705742ad7859cab2`);
+        return axios.get(`/weather?q=${param}&units=metric&&appid=`);
     }
 }
 
