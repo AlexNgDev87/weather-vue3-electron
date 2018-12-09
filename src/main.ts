@@ -5,7 +5,6 @@ import axios from "axios";
 Vue.config.productionTip = false;
 axios.defaults.baseURL = "https://api.openweathermap.org/data/2.5";
 
-
 new Vue({
   render: h => h(App),
 }).$mount("#app");

@@ -12,6 +12,10 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'linebreak-style': 0,
+    'object-property-newline': ['error', { 
+      'allowAllPropertiesOnSameLine': true 
+    }],
+    'lines-between-class-members': ['error', 'never']
   },
   parserOptions: {
     parser: 'typescript-eslint-parser',
